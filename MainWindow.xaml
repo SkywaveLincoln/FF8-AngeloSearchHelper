@@ -1,0 +1,70 @@
+﻿<Window x:Class="FF8AngeloSearch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FF8 Angelo Manual Search Helper" Height="450" Width="300"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        Topmost="True">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!-- Button to toggle the hook on/off -->
+            <Button x:Name="ToggleHookButton"
+                    Content="Enable Hook"
+                    Width="120" Height="30"
+                    Click="ToggleHookButton_Click" />
+
+            <!-- Label to show how many times 'R' was pressed -->
+            <Label x:Name="RButtonPressLabel"
+                   Content="Manual Increment: 0 times"
+                   FontSize="16"
+                   Margin="0,10,0,0"/>
+
+            <!-- Label to show how many times 'J' was pressed -->
+            <Label x:Name="JButtonPressLabel"
+                   Content="Game Value: 0 times"
+                   FontSize="16"
+                   Margin="0,10,0,0"/>
+
+            <!-- Progress bar to show the progress of _tickCount -->
+            <ProgressBar x:Name="TickProgressBar"
+                         Width="200"
+                         Height="20"
+                         Minimum="0"
+                         Maximum="13300"
+                         Margin="0,10,0,0"/>
+
+            <!-- Label to show the time elapsed -->
+            <Label x:Name="TimeElapsedLabel"
+                   Content="Time Elapsed: 0.0s"
+                   FontSize="16"
+                   Margin="0,10,0,0"/>
+
+            <!-- List to show item names -->
+            <ListBox x:Name="ItemListBox"
+                     Width="200"
+                     Height="126"
+                     Margin="0,10,0,0"/>
+
+            <!-- Label to show possible clicks -->
+            <Label x:Name="PossibleClicksLabel"
+                   Content="Possible Clicks: "
+                   FontSize="16"
+                   Margin="0,10,0,0"/>
+
+            <!-- Buttons to confirm selection and reset -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="ConfirmSelectionButton"
+                        Content="Confirm Selection"
+                        Width="120"
+                        Height="30"
+                        Click="ConfirmSelectionButton_Click"
+                        Margin="0,10,10,0"/>
+                <Button x:Name="ResetButton"
+                        Content="Reset"
+                        Width="120"
+                        Height="30"
+                        Click="ResetButton_Click"
+                        Margin="0,10,0,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

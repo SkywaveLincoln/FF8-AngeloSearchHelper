@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------------------------------------------
+|Row | Column 1 (16/32) | Column 2 (4/32) | Column 3 (2/32) | Column 4 (2/32)  | Column 5 (1/32) | Column 6 (7/32) |
+--------------------------------------------------------------------------------------------------------------------
+| 1  | Potion           | North Wind      | Hero            | Energy Crystal   | Aegis Amulet    | Cottage         |
+| 2  | Potion+          | Occult Fan II   | Hero-Trial      | Jet Engine       | Pet House       | G-Hi-Potion     |
+| 3  | Mega Phoenix     | Sleep Powder    | Elixir          | Jet Engine       | GF Scroll       | Cottage         |
+| 4  | Phoenix Down     | Combat King 004 | Holy Stone      | Force Armlet     | Magic Scroll    | Cottage         |
+| 5  | Hi-Potion+       | Cactus Thorn    | Shell Stone     | Moon Curtain     | Healing Ring    | G-Potion        |
+| 6  | Potion           | Curse Spike     | Holy Stone      | Circlet          | Tent            | Tent            |
+| 7  | Potion           | Dragon Fin      | Protect Stone   | Adamantine       | Draw Scroll     | G-Mega-Potion   |
+| 8  | X-Potion         | Steel Orb       | Protect Stone   | Gold Armor       | Status Guard    | G-Returner      |
+| 9  | Mega Phoenix     | Cactus Thorn    | Antidote        | Rune Armlet      | Hungry Cookpot  | G-Potion        |
+---------------------------------------------------------------------------------------------------------------------
